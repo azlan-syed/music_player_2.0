@@ -62,7 +62,7 @@ frame.pack()
 frame1 = Frame()
 frame1.pack(pady=10)
 
-Label(frame,text="Cotrol Panel", font="italic 15 bold",fg="red").pack(pady=5,side=LEFT)
+Label(frame,text="Volume", font="italic 15 bold",fg="red").pack(pady=5,side=LEFT)
 
 # Add Scale bar 
 width_slider = ttk.Scale(frame, 
